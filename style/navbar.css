@@ -1,0 +1,96 @@
+@font-face{font-family: BellTM;; src: url(../fonts/bell-mt.ttf);}
+@font-face{font-family: BellTM;; font-weight: bold; src: url(../fonts/bell-mt-bold.ttf);}
+@font-face{font-family: Broadway; src: url(../fonts/Broadway\ Regular.ttf);}
+
+.navBar{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    box-sizing: border-box;
+    padding: 1rem 3rem;
+}
+
+.navBar div{
+    display: flex;
+    flex-direction: row;
+    height: calc(15vh - 4rem);
+    align-items: center;
+}
+
+.navBar_Logo p{
+    margin: 0;
+    height: fit-content;
+    font-family: Broadway;
+    font-size: 2rem;
+}
+
+.navBar_Logo img{
+    height: inherit;
+    margin-right: 0.5rem;
+}
+
+
+
+.navBar_list{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navBar_list a{
+    align-items: center;
+    display: flex;
+    height: 12vh;
+    padding: 0 1.7rem;
+    background-color: white;
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+}
+.navBar_list a:hover{
+    background-color: rgb(157, 213, 164) !important;
+    color: white;
+}
+
+.navBar_list a:last-child{
+    width: 1.4rem;
+    background-image: url(../Images/cartIcon.png);
+    background-size: 1.9rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.navBar_list a:last-child:hover{
+    background-image: url(../Images/cartIconHover.png);
+}
+
+.navBar_Contact{
+    font-family: BellTM !important;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    align-items: center;
+    display: flex !important;
+    height: 12vh;
+    padding: 0rem 1.7rem;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+.navBar_Contact:hover{
+    background-color: rgb(157, 213, 164) !important;
+    color: white;
+}
+
+.active{
+    background-color: rgb(157, 213, 164) !important;
+    color: white !important;
+}
