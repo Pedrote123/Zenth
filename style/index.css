@@ -24,8 +24,10 @@ body{
     z-index: -1;
     position: relative;
     background-image: url(../Images/indexBackground.jpg);
-    background-size: contain;
-    background-position-x: 35vw;
+    background-size: cover;
+    background-position-x: 17vw;
+    background-position-y: -25vh;
+    background-repeat: no-repeat;
 }
 
 #indexHeader_Nav{
@@ -56,7 +58,7 @@ body{
 }
 
 #indexHeader_Nav--Logo img{
-    height: inherit;
+    height: 3rem;
     margin-right: 0.5rem;
 }
 
@@ -100,7 +102,7 @@ body{
 }
 
 #indexHeader_Nav--Contact{
-    font-family: BellTM !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
     font-size: 1.4rem;
     font-weight: bolder;
     align-items: center;
