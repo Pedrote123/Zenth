@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(244, 244, 244);
+}
+
+
+
+
+#outfitMaker{
+    display: flex;
+    height: calc(100vh - 12vh);
+}
+
+#outfitMaker_Displayer{
+    background-color: white;
+    width: 70vw;
+    height: 80vh;
+    margin: auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    user-select: none;
+    box-sizing: border-box;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#outfitMaker_Displayer--Selection{
+    display: flex;
+    flex-direction: row;
+}
+
+#outfitMaker_Displayer--Options{
+    width: 50%;
+}
+
+#outfitMaker_Displayer--Options span:first-child{
+    margin-top: 0;
+}
+
+#outfitMaker_Displayer--Options span{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1.5rem 0;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin-top: 2rem;
+}
+
+#outfitMaker_Displayer--Options span h3{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-family: 'BellTM';
+    font-weight: 100;
+    background-image: url(../Images/arrow-down-sign.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+}
+
+#outfitMaker_Displayer--Selector{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    margin-left: 2rem;
+    background-color: rgb(244, 244, 244);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+#RecommendationsButton{
+    width: calc(50% - 1rem);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-top: 3rem;
+    height: 71px;
+    font-family: 'BellTM';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: rgb(157, 213, 164);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
