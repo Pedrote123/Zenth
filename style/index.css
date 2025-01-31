@@ -185,7 +185,7 @@ body{
 footer{
     display: flex;
     align-items: center;
-    height: 20vh;
+    height: 15vh;
     box-sizing: border-box;
     padding: 2rem 4rem;
     background-color: rgb(30, 30, 30);
